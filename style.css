@@ -1,0 +1,89 @@
+body {
+  background-image: url('9495910.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin: 0;   /* remove default body margin */
+  height: 100vh; /* make sure it covers full screen */
+}
+
+
+
+
+
+
+
+.text{
+border-radius:5px;
+height:70px;
+width:480px;
+justify-items: center;
+font-size:30px;
+margin-left:2px;
+background-color: rgb(236, 236, 230);
+}
+.bord{
+  
+border:3px solid rgb(157, 152, 97);
+height: 487px;
+width:492px;
+}
+
+.box {
+    height: 100px;
+    width: 120px;
+    background-color: rgb(180, 175, 164);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for normal buttons */
+.box:hover {
+    background-color: rgb(150, 145, 135);
+    transform: scale(1.05);
+}
+
+.oparation {
+    height: 100px;
+    width: 120px;
+    background-color: rgb(238, 195, 53);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+/* Hover effect for operation buttons */
+.oparation:hover {
+    background-color: rgb(200, 115, 10);
+    transform: scale(1.05);
+}
+
+
+/* ===== MOBILE RESPONSIVE FIX (ADDED ONLY) ===== */
+@media (max-width: 600px) {
+
+  .bord {
+    width: 95%;
+    height: auto;
+    margin: auto;
+  }
+
+  .text {
+    width: 100%;
+    height: 60px;
+    font-size: 22px;
+  }
+
+  .box,
+  .oparation {
+    width: 22%;
+    height: 70px;
+    font-size: 18px;
+    margin: 4px;
+  }
+
+  center {
+    margin-top: 20px;
+  }
+}

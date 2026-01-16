@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Hello, World!</title>
+    <link rel="stylesheet" href="style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  </head>
+  <body ><center style="margin-top:50px;">
+
+    <div class="bord">
+<input 
+  type="text" 
+  id="display" 
+  class="text" 
+  readonly 
+  maxlength="10"
+  style="margin-bottom:10px;">
+
+
+
+    <input type="button" value="1" onclick="appendNumber('1')" class="box"/>
+    <input type="button" value="2" onclick="appendNumber('2')" class="box"/>
+    <input type="button" value="3" onclick="appendNumber('3')"class="box" />
+    <input type="button" value="4" onclick="appendNumber('4')"class="box" />
+    <input type="button" value="5" onclick="appendNumber('5')" class="box"/>
+    <input type="button" value="6" onclick="appendNumber('6')" class="box"/>
+    <input type="button" value="7" onclick="appendNumber('7')" class="box"/>
+    <input type="button" value="8" onclick="appendNumber('8')" class="box"/>
+    <input type="button" value="9" onclick="appendNumber('9')" class="box"/>
+    <input type="button" value="0" onclick="appendNumber('0')" class="box"/>
+    <input type="button" value="Clear" onclick="clearDisplay()" class="oparation"/>
+    <input type="button" value="ANS" onclick="calculate()" class="oparation"/>
+
+     <input type="button" value="+" onclick="appendNumber('+')"class="oparation" />
+
+    <input type="button" value="_" onclick="appendNumber('-')"class="oparation" />
+    <input type="button" value="*" onclick="appendNumber('*')" class="oparation"/>
+    <input type="button" value="/" onclick="appendNumber('/')" class="oparation"/>
+
+    
+      
+    
+    </div>
+
+      </center>
+
+
+    
+    
+      <p id="currentTime"></p>
+      <script src="abc.js"></script>
+  </body>
+</html>
